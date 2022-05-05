@@ -58,3 +58,5 @@ func (s *NullString) UnmarshalJSON(data []byte) error {
 	s.String, s.Valid = string(data), true
 	return nil
 }
+
+//test
